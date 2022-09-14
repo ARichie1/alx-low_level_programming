@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet - check the code for ALX School students.
- * Return: Alwys 0 (Success)
+ * print_alphabet_x10 - func
+ * Return - 0
  */
 
 void print_alphabet_x10(void)
@@ -12,6 +12,7 @@ void print_alphabet_x10(void)
 	while (b < 10)
 	{
 		char a = 'a';
+		
 		while (a <= 'z')
 		{
 			_putchar(a);
