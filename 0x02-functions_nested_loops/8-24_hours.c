@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * times_table - prints the 9 times table, starting with 0
+ * jack_bauer - all minutes in a day
+ * Description:prints all minutes in a day
+ * Return:void
  */
 
 void jack_bauer(void)
