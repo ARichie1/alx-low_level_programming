@@ -2,30 +2,24 @@
 #include <math.h>
 
 /**
- * entry point
- * Return:0(success)
- * Description:testing above function
+ * main - entry line
+ * @void: no argument
+ * Return: alway 0
  */
 
 int main(void)
 {
-	long int i, n, d;
+	long int i, n;
 
-	n = 612852475143;
-
-	for (i = 1; i <= n; i++)
+	i = 612852475143;
+	for (n = 2; n <= i; n++)
 	{
-		if (n % i == 0)
+		if (i % n == 0)
 		{
-			if (n == i)
-			{
-				printf("%ld\n", i);
-				break;
-			}
-			d = n / i;
-			n = d;
-			i = 1;
+			i = i / n;
+			n--;
 		}
 	}
+	printf("%lu\n", n);
 	return (0);
 }
