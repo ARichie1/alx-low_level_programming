@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_square - prints square using #
+ * main - Program tha prints the number from 1 t0 100
+ * but for multiples of three prints Fizz instead of number
+ * and for multiples of five prints Buzz
  * Return: Always 0
  */
 
